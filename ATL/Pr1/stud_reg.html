@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Student Registration Form</title>
+    </head>
+
+    <body>
+
+        <center>
+            <h2>Student Registration Form</h2>
+
+            <form name="stud_reg_form" action="stud_reg.php" method="POST">
+
+                <table cellspacing="12" >
+                    <tr>
+                        <td> Name: </td>
+                        <td>  
+                            <input type="text" name="studname" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Email: </td>
+                        <td>  
+                            <input type="email" name="email" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Mobile Number: </td>
+                        <td>  
+                            <input type="phone" name="mno" id="mno" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Address: </td>
+                        <td>  
+                            <textarea name="address" required></textarea>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td> Qualification: </td>
+                        <td>  
+                            <input type="checkbox" name="qualification" value="graduate"> Graduate
+                            <input type="checkbox" name="qualification" value="post_graduate"> Post Graduate
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Courses Applied For: </td>
+                        <td>  
+                            <input type="radio" name="course" value="BTech" required> BTech
+                            <input type="radio" name="course" value="BCA" required> BCA
+                            <input type="radio" name="course" value="BBA" required> BBA
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> Department: </td>
+                        <td>  
+                            <select name="dept" id="dept" required>
+                                <option value="CSE">CSE</option>
+                                <option value="IT">IT</option>
+                                <option value="AI">AI</option>
+                                <option value="DS">DS</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" id="submit" value="Submit">
+                        </td>
+                    </tr>
+
+                </table>
+
+            </form>
+        </center>
+        
+    </body>
+</html>
