@@ -1,6 +1,6 @@
 ### Run ATL Programs on browser-
 
-add your all file in xampp htdocs folder
+Add your all file in xampp htdocs folder
 
 on browser put this -
 
@@ -11,6 +11,8 @@ if your created your own folder in htdocs foled then-
 
 localhost/foldername/filename.html
 ```
+
+Never forget to on apache and mysql on xampp control panel
 
 ### Run CD programs on terminals-
 
