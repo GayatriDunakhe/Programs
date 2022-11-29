@@ -1,0 +1,38 @@
+<html>
+    <head>
+    <title>Convert meter centimeter foot inches</title>
+    </head>
+
+    <body>
+        <center>
+            <h3> Convert Meter Centimeter Foot Inches  </h3>
+
+            <form action="convert.php" method="post">
+                <table cellspacing = "12">
+                    <tr>
+                        <td>
+                            <input type="text" name="number" id="num" required>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td>
+                            <select name="choose">
+                                <option>Choose</option>
+                                <option value="m" id="m">M</option>
+                                <option value="cm" id="cm">CM</option>
+                                <option value="f" id="f">F</option>
+                                <option value="in" id="in">IN</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><input type="submit" value="Convert"></td>
+                    </tr>
+                </table>
+            </form>
+
+        </center>
+    </body>
+</html>
