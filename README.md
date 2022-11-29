@@ -1,3 +1,17 @@
+### Run ATL Programs on browser-
+
+add your all file in xampp htdocs folder
+
+on browser put this -
+
+```python
+localhost/filename.html
+
+if your created your own folder in htdocs foled then-
+
+localhost/foldername/filename.html
+```
+
 ### Run CD programs on terminals-
 
 Window - 
