@@ -7,12 +7,12 @@ on browser put this -
 ```python
 localhost/filename.html
 
-if your created your own folder in htdocs foled then-
+if your created your own folder in htdocs folder then-
 
 localhost/foldername/filename.html
 ```
 
-Never forget to on apache and mysql on xampp control panel
+Never forget to start apache and mysql on xampp control panel
 
 ### Run CD programs on terminals-
 
